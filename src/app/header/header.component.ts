@@ -7,11 +7,11 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-  logo:string = "./assets/PLUMA_BLACK_LOGO.png";
+  logo:string = "./assets/logo/PLUMA_BLACK_LOGO.png";
   mouseOver(){
-    this.logo = "./assets/PLUMA_WHITE_LOGO.png";
+    this.logo = "./assets/logo/PLUMA_WHITE_LOGO.png";
   }
   mouseOut(){
-    this.logo = "./assets/PLUMA_BLACK_LOGO.png";
+    this.logo = "./assets/logo/PLUMA_BLACK_LOGO.png";
   }
   }

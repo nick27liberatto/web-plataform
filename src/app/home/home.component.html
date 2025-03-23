@@ -1,0 +1,15 @@
+<ul>
+    <li *ngFor="let shirt of shirts">
+        <a href="">
+            <img src="{{shirt.imageUrl}}" alt="shirt">
+            <div class="content">
+                <div class="name">
+                    {{shirt.name}}
+                </div>
+                <span class="favorite {{shirt.favorite?'':'not'}}">
+                    ❤
+                </span>
+            </div>
+        </a>
+    </li>
+</ul>
